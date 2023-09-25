@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="snsw-location-app">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.serverless/snsw-location-app.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,16 @@
+org: charchit26
+app: snsw-location-app
+service: snsw-location-app
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  location-api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /
+          method: get
